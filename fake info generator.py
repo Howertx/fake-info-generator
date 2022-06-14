@@ -11,7 +11,6 @@ while True:
   print("      TCW Fake İnfo Generator      ")
   print("         Made by Howert          ")
   print("[=================================]")
-  print("Not: Doğum tarihleri illegal olursa (30 şubat veya max. 30 olan bir ayda 31 gelmesi durumlarda) baştan info üretin.")
   cinsiyet = int(input("Oluşturacağınız fake info cinsiyetini girin \n1- Erkek\n2- Kız\n3- Rastgele\n >> "))
   if cinsiyet == 1:
      maxyas = int(input("Fake info max yaşını girin >> "))
